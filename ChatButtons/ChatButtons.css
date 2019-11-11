@@ -28,5 +28,12 @@
 }
 
 #app-mount .button-14-BFJ:hover {
-	opacity: var(--user-hover-buttons);
+	opacity: var(--user-buttons);
+	animation-name: fade;
+  	animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: var(--user-buttons);}
+  to {opacity: var(--user-hover-buttons);}
 }
