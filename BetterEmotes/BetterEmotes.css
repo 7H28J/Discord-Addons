@@ -1,28 +1,35 @@
-/* Better Emote Sizes */
+/* 
 
+    BETTER EMOTES 
+
+*/
+
+/* Server Emote list size */
+#app-mount .emojiImage-1hZi2F {
+  height: var(--emote-size);
+  width: var(--emote-size);
+}
+
+/* Changes default Emote height/width without a message attached */
 #app-mount .emoji.jumboable {
-  /* Changes default Emote height/width without a message attached */
-  height: 2.5rem;
-  width: 2.5rem;
+  height: var(--emote-size);
+  width: var(--emote-size);
 }
 
 /* Changes the emote height/width when used in a message */
-
 #app-mount .emoji {
-  height: 2rem;
-  width: 2rem;
+  height: var(--emote-size);
+  width: var(--emote-size);
 }
 
-/* Reaction emote fix */
-
+/* Reaction Emote size */
 #app-mount .reaction-1ELvT8 .emoji {
-  width: 1.5rem !important;
-  height: 1.5rem !important;
+  width: var(--react-emote-size);
+  height: var(--react-emote-size);
 }
 
-/* Font Fix for the Emotes + easier readability */
-
-#app-mount .markup-2BOw-j {
-  font-size: 1.063rem;
-  line-height: 1.3;
+/* Better Chat font sizes to go with the emotes */
+#app-mount .markup-2BOw-j, 
+#app-mount .username-_4ZSMR {
+  font-size: var(--default-font-size);
 }
