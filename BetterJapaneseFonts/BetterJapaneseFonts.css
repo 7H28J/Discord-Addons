@@ -10,7 +10,9 @@
 /* Username Members list */
 #app-mount .username-1cB_5E,
 /* User Info */
-#app-mount .hoverRoll-YK53gQ {
+#app-mount .hoverRoll-YK53gQ,
+/* Text Entry */
+#app-mount .textArea-2Spzkt {
     /* using the default discord theme's fonts */
     font-family:
         'Whitney',
