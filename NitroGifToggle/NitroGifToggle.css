@@ -7,3 +7,7 @@
 #app-mount .buttonWrapper-1ZmCpA[tabindex="3"] {
   display: var(--gif-button);
 }
+
+#app-mount .attachButton-1UjEWA {
+	display: var(--attach-button)
+}
