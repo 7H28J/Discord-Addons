@@ -48,12 +48,12 @@
 /* Hide emojis in embedded messages 1/2 */
 .embedInner-1-fpTo .emoji {
     display: var(--embed-emote);
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
 }
 
 /* Hide emojis in embedded messages 2/2 */
 .text-16xCj0 .emoji {
-    height: 20px!important;
-    width: 20px!important;
+    height: 22px!important;
+    width: 22px!important;
 }
