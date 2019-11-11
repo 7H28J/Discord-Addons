@@ -1,9 +1,0 @@
-/* Gift Nitro Button */
-#app-mount .buttonWrapper-1ZmCpA[tabindex="2"] {
-  display: var(--gift-nitro-button);
-}
-
-/* Gif Button */
-#app-mount .buttonWrapper-1ZmCpA[tabindex="3"] {
-  display: var(--gif-button);
-}
