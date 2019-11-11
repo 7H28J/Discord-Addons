@@ -46,7 +46,7 @@
 }
 
 .inner-zqa7da {
-	background: #2A2C31 !important;
+	background: #292B2F !important;
 	border-radius: 0;
 }
 
@@ -68,4 +68,19 @@
     margin: 10px 10px !important;
     padding: 10px 64px 10px 12px !important;
     max-height: 30px!important;
+}
+
+/* Gift, Gif Buttons alignment correction */
+#app-mount .buttons-205you {
+    padding-top: 5px;
+}
+
+/* Attach file button */
+#app-mount .attachButton-1UjEWA {
+	display: var(--attach-button)
+}
+
+/* Attach file button divider */
+#app-mount .attachButtonDivider-3Glu60 {
+
 }
