@@ -34,12 +34,26 @@
   font-size: var(--default-font-size);
 }
 
-/* Bigger emotes in the emote menu */
+/* Bigger emotes in the emote menu 1/2 */
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
     height: var(--menu-emote-size)+4;
 }
 
+/* Bigger emotes in the emote menu 2/2 */
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
     height: var(--menu-emote-size);
     width: var(--menu-emote-size);
+}
+
+/* Hide emojis in embedded messages 1/2 */
+.embedInner-1-fpTo .emoji {
+    display: var(--embed-emote);
+    width: 18px;
+    height: 18px;
+}
+
+/* Hide emojis in embedded messages 2/2 */
+.text-16xCj0 .emoji {
+    height: 20px!important;
+    width: 20px!important;
 }
