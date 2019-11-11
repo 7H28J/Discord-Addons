@@ -8,7 +8,9 @@
 /* Chat Username */
 #app-mount .username-_4ZSMR,
 /* Username Members list */
-.username-1cB_5E {
+#app-mount .username-1cB_5E,
+/* User Info */
+#app-mount .hoverRoll-YK53gQ {
     /* using the default discord theme's fonts */
     font-family:
         'Whitney',
