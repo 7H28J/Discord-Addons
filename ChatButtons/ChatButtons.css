@@ -24,9 +24,9 @@
 }
 
 #app-mount .button-14-BFJ {
-	opacity: var(--user-buttons)
+	opacity: var(--user-buttons);
 }
 
 #app-mount .button-14-BFJ:hover {
-	opacity: var(--user-hover-buttons)
+	opacity: var(--user-hover-buttons);
 }
