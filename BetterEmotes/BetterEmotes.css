@@ -33,3 +33,13 @@
 #app-mount .username-_4ZSMR {
   font-size: var(--default-font-size);
 }
+
+/* Bigger emotes in the emote menu 1/2 */
+.emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
+    height: var(--menu-emote-size)+4;
+}
+/* Bigger emotes in the emote menu 2/2 */
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+    height: var(--menu-emote-size);
+    width: var(--menu-emote-size);
+}
