@@ -75,11 +75,6 @@
     padding-top: 7px;
 }
 
-/* Attach file button */
-#app-mount .attachButton-1UjEWA {
-	display: var(--attach-button)
-}
-
 /* Attach file button divider */
 #app-mount .attachButtonDivider-3Glu60 {
 	display: none;
