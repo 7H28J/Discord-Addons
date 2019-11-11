@@ -72,7 +72,7 @@
 
 /* Gift, Gif Buttons alignment correction */
 #app-mount .buttons-205you {
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 /* Attach file button */
@@ -82,5 +82,5 @@
 
 /* Attach file button divider */
 #app-mount .attachButtonDivider-3Glu60 {
-
+	display: none;
 }
