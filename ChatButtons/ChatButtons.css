@@ -1,6 +1,6 @@
 /* Emotes Button */
 #app-mount .sprite-2iCowe {
-	display: var(--emotes-button);
+	display: var(--emotes-button)!important;
 }
 
 /* Gift Nitro Button */
