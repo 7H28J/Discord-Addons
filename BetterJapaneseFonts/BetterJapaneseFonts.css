@@ -1,0 +1,21 @@
+/* 
+
+    Better Japanese Font 
+
+*/
+/* Message Text */
+#app-mount .markup-2BOw-j,
+/* Chat Username */
+#app-mount .username-_4ZSMR,
+/* Username Members list */
+.username-1cB_5E {
+    /* using the default discord theme's fonts */
+    font-family:
+        'Whitney',
+        'Helvetica Neue',
+        'Helvetica',
+        'Arial',
+    /* you can change this to whatever japanese font you prefer */
+        'Kozuka Gothic Pro',
+        'sans-serif'!important;
+}

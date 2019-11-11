@@ -1,0 +1,71 @@
+/*
+ *
+ *	CHAT FORM
+ *
+ */
+
+.chat-3bRxxu form {
+	display: block !important;
+	position: relative !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	bottom: 0 !important;
+	background: var(--input-color) !important;
+}
+
+.channelTextArea-rNsIhG {
+	margin: 0;
+	padding: 0;
+	background: var(--input-color) !important;
+	border: none !important;
+	max-height: 60px!important;
+}
+
+.channelTextArea-os01xC .innerNoAutocomplete-kaUXJZ,
+.channelTextArea-rNsIhG {
+	min-height: 54px !important; /* 68px */
+}
+
+.channelTextArea-rNsIhG .textArea-2Spzkt {
+	margin: 10px 10px !important;
+	padding: 10px 64px 10px 12px !important;
+	max-height: 54px!important;
+}
+
+.channelTextArea-rNsIhG .textArea-2Spzkt.textAreaDisabled-2_o-kZ {
+	padding: 10px 640px 10px 12px !important;
+}
+
+.edit-message .textArea-2Spzkt {
+	padding: 8px 72px 8px 8px !important;
+}
+
+.edit-message .avatar-large {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.inner-zqa7da {
+	background: #2A2C31 !important;
+	border-radius: 0;
+}
+
+.attachButtonPlus-rUdX-B {
+	d: path('M7.5,18A5.5,5.5 0 0,1 2,12.5A5.5,5.5 0 0,1 7.5,7H18A4,4 0 0,1 22,11A4,4 0 0,1 18,15H9.5A2.5,2.5 0 0,1 7,12.5A2.5,2.5 0 0,1 9.5,10H17V11.5H9.5A1,1 0 0,0 8.5,12.5A1,1 0 0,0 9.5,13.5H18A2.5,2.5 0 0,0 20.5,11A2.5,2.5 0 0,0 18,8.5H7.5A4,4 0 0,0 3.5,12.5A4,4 0 0,0 7.5,16.5H17V18H7.5Z') !important;
+}
+
+.typing-2GQL18 {
+    display: none!important;
+}
+
+
+
+
+
+
+
+.channelTextArea-rNsIhG .textArea-2Spzkt {
+    margin: 10px 10px !important;
+    padding: 10px 64px 10px 12px !important;
+    max-height: 30px!important;
+}

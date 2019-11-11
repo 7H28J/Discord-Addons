@@ -1,0 +1,104 @@
+:root {
+    --main-bg: #202225;
+    --sub-bg: #2F3136;
+}
+
+#app-mount .role-2irmRk {
+    background-color: var(--main-bg);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    height: 22px;
+    margin: 0 4px 4px 0;
+    padding: 4px;
+}
+
+#app-mount .userPopout-3XzG_A .roleCircle-3xAZ1j[style="background-color: rgb(185, 187, 190);"] {
+    background-color: #4F545C !important
+}
+
+.avatarWrapper-3H_478 {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    right: 68px;
+    position: relative;
+}
+
+.headerText-2sdzFM, .BE-badges.BE-badges-popout.topSectionNormal-2-vo2m {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    right: 54px;
+    position: relative;
+}
+
+/* Profile popout header align left */
+.headerText-2sdzFM {
+    align-items: flex-start;
+}
+/* Profile pophead header font size */
+.size16-14cGz5 {
+    font-size: 18px;
+}
+
+/* profile popout footer */
+.footer-1fjuF6 {
+    display: none;
+}
+
+/* profile popout notes */
+.note-3kmerW textarea {
+    color: #b9bbbe;
+    background: #292B2F!important;
+    border: 1px solid #18191C;
+}
+
+/* profile popout header */
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
+    background: var(--main-bg);
+}
+
+/* profile popout header */
+/* Discord profile header */
+.activity-11LB_k, .headerFill-adLl4x {
+    background-color: var(--main-bg);
+    border-top: 1px solid #292B2F;
+}
+
+/* Discord Profile header */
+/* When Playing something */
+.topSectionPlaying-1J5E4n,
+.headerSpotify-zpWxgT,
+.topSectionSpotify-1lI0-P {
+    background: var(--main-bg);
+}
+
+/* Discord profile connected accounts */
+.connectedAccount-36nQx7 {
+    border-color: transparent;
+    background: #36393F;
+}
+/* Discord profile connected accounts */
+.connectedAccountName-f8AEe2 {
+    color: white;
+}
+
+/* Discord profile badges */
+.profileBadges-2vWUYb {
+    margin-top: 8px;
+    top: 10px;
+    left: 20px;
+    float: right;
+    width: 100px;
+    flex-wrap: wrap-reverse;
+    position: relative;
+    transform: scaleX(-1);
+}
+
+/* Discord profile "Send Message" Button */
+/* Discord profile "..." Button */
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.additionalActionsIcon-1FoUlE {
+    display: block;
+}
