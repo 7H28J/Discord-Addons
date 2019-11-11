@@ -8,6 +8,6 @@
   display: var(--gif-button);
 }
 
-#app-mount .attachButton-1UjEWA {
+#app-mount .attachButton-1UjEWA, #app-mount .attachButtonDivider-3Glu60 {
 	display: var(--attach-button)
 }
