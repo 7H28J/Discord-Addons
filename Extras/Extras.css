@@ -9,3 +9,7 @@
 #app-mount .buttonContainer-KtQ8wc {
     display: var(--MessageReactButton);
 }
+
+#app-mount .addButton-1BORro.forceVisible-3iHxvH, #app-mount .iconVisibility-1yaA_k:hover .addButton-1BORro {
+	display: var(--AddChannelButton)!important;
+}
