@@ -23,11 +23,13 @@
 	display: var(--attach-button);
 }
 
-#app-mount .button-14-BFJ {
+#app-mount .button-14-BFJ, /* Mute, Deafen and Settings buttons */
+#app-mount .icon-22AiRD /* All title bar buttons, mute channel, pinned messages, etc */ {
 	opacity: var(--user-buttons);
 }
 
-#app-mount .button-14-BFJ:hover {
+#app-mount .button-14-BFJ:hover, /* Mute, Deafen and Settings buttons */
+#app-mount .icon-22AiRD:hover /* All title bar buttons, mute channel, pinned messages, etc */ {
 	opacity: var(--user-buttons);
 	animation-name: fade;
   	animation-duration: 2s;
