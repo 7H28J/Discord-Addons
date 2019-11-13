@@ -22,5 +22,5 @@
 
 /* Removes the channel settings and invite button */
 #app-mount .children-Bmpf2Q {
-	display: var(--ChannelSettingsButton);
+	display: var(--ChannelSettingsButton)!important;
 }
