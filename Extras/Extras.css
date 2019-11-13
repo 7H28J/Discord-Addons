@@ -10,6 +10,12 @@
     display: var(--MessageReactButton);
 }
 
+/* Removes the Add Channel button on categoriesm the + */
 #app-mount .addButton-1BORro.forceVisible-3iHxvH, #app-mount .iconVisibility-1yaA_k:hover .addButton-1BORro {
 	display: var(--AddChannelButton)!important;
+}
+
+/* Removes the collapse arrow from categories, the > */
+#app-mount .icon-WnO6o2 {
+	display: var(--CollapseArrow)
 }
