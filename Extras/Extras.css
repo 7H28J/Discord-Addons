@@ -1,12 +1,11 @@
 /* Removes the header at the top of new channels */
 /* Welcome to the beginning of.. */
-.default-1VPH9n {
-    visibility: var(--NewChannelMessage);
-    margin-top: -90px;
+#app-mount .default-1VPH9n {
+    display: var(--NewChannelMessage);
 }
 
 /* add reaction, etc button at the side of messages */
 /* You can just click right images to react with most used emotes, or to delete, etc */
-.buttonContainer-KtQ8wc {
+#app-mount .buttonContainer-KtQ8wc {
     display: var(--MessageReactButton);
 }
