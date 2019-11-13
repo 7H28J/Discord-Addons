@@ -17,5 +17,10 @@
 
 /* Removes the collapse arrow from categories, the > */
 #app-mount .icon-WnO6o2 {
-	display: var(--CollapseArrow)
+	display: var(--CollapseArrow);
+}
+
+/* Removes the channel settings and invite button */
+#app-mount .children-Bmpf2Q {
+	display: var(--ChannelSettingsButton);
 }
