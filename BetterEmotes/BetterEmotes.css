@@ -1,9 +1,3 @@
-/* 
-
-    BETTER EMOTES 
-
-*/
-
 /* Server Emote list size */
 #app-mount .emojiImage-1hZi2F {
   height: var(--emote-size);
@@ -46,6 +40,6 @@
 }
 
 /* Hide emojis in embedded messages 1/2 */
-.embedInner-1-fpTo .emoji {
+#app-mount .embedFull-2tM8-- .emoji {
     display: var(--embed-emote);
 }
