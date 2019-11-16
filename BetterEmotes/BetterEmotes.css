@@ -43,3 +43,16 @@
 #app-mount .embedFull-2tM8-- .emoji {
     display: var(--embed-emote);
 }
+
+#app-mount .activity-2Gy-9S .emoji,
+#app-mount .hoverRoll-YK53gQ .emoji
+{
+    height: var(--custom-status-emote);
+    width: var(--custom-status-emote);
+}
+
+#app-mount .emojiRow-zIc7ZX .emojiImage-1hZi2F {
+    height: var(--server-emotes);
+    width: var(--server-emotes);
+}
+}
