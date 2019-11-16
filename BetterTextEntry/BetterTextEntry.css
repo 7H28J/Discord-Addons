@@ -4,7 +4,7 @@
  *
  */
 
-.chat-3bRxxu form {
+#app-mount .chat-3bRxxu form {
 	display: block !important;
 	position: relative !important;
 	margin: 0 !important;
@@ -13,7 +13,7 @@
 	background: var(--input-color) !important;
 }
 
-.channelTextArea-rNsIhG {
+#app-mount .channelTextArea-rNsIhG {
 	margin: 0;
 	padding: 0;
 	background: var(--input-color) !important;
@@ -21,50 +21,68 @@
 	max-height: 53px!important;
 }
 
-.channelTextArea-os01xC .innerNoAutocomplete-kaUXJZ,
+#app-mount .channelTextArea-os01xC .innerNoAutocomplete-kaUXJZ,
 .channelTextArea-rNsIhG {
 	min-height: 53px !important; /* 68px */
 }
 
-.channelTextArea-rNsIhG .textArea-2Spzkt {
+#app-mount .channelTextArea-rNsIhG .textArea-2Spzkt {
 	margin: 10px 10px !important;
 	padding: 10px 64px 10px 12px !important;
 	max-height: 53px!important;
 }
 
-.channelTextArea-rNsIhG .textArea-2Spzkt.textAreaDisabled-2_o-kZ {
+#app-mount .channelTextArea-rNsIhG .textArea-2Spzkt.textAreaDisabled-2_o-kZ {
 	padding: 10px 640px 10px 12px !important;
 }
 
-.edit-message .textArea-2Spzkt {
+#app-mount .edit-message .textArea-2Spzkt {
 	padding: 8px 72px 8px 8px !important;
 }
 
-.edit-message .avatar-large {
+#app-mount .edit-message .avatar-large {
 	opacity: 0;
 	visibility: hidden;
 }
 
-.inner-zqa7da {
+#app-mount .inner-zqa7da {
 	background: #292B2F !important;
 	border-radius: 0;
 }
 
-.attachButtonPlus-rUdX-B {
+#app-mount .attachButtonPlus-rUdX-B {
 	d: path('M7.5,18A5.5,5.5 0 0,1 2,12.5A5.5,5.5 0 0,1 7.5,7H18A4,4 0 0,1 22,11A4,4 0 0,1 18,15H9.5A2.5,2.5 0 0,1 7,12.5A2.5,2.5 0 0,1 9.5,10H17V11.5H9.5A1,1 0 0,0 8.5,12.5A1,1 0 0,0 9.5,13.5H18A2.5,2.5 0 0,0 20.5,11A2.5,2.5 0 0,0 18,8.5H7.5A4,4 0 0,0 3.5,12.5A4,4 0 0,0 7.5,16.5H17V18H7.5Z') !important;
 }
 
-.typing-2GQL18 {
-    display: none!important;
+
+/* User is typing background 1/3 */
+#app-mount .base-gE7OpD {
+    background-color: #36393F;
+}
+
+/* User is typing... 2/3 */
+#app-mount .typing-2GQL18 {
+    display: block!important;
+    position: absolute;
+    left: 5px;
+    bottom: 53px;
+    max-height: 25px;
+    width: auto 0;
+}
+
+/* removes the ". . ." from user is typing 3/3 */
+#app-mount .typing-2GQL18 .ellipsis-19qdx6 {
+	display: none;
+}
+
+#app-mount .messages-3amgkR {
+	padding-bottom: 10px;
 }
 
 
 
 
-
-
-
-.channelTextArea-rNsIhG .textArea-2Spzkt {
+#app-mount .channelTextArea-rNsIhG .textArea-2Spzkt {
     margin: 10px 8px !important;
     padding: 10px 64px 10px 0 !important;;
     max-height: 30px!important;
@@ -72,7 +90,7 @@
 
 /* Gift, Gif Buttons alignment correction */
 #app-mount .buttons-205you {
-    padding-top: 7px;
+    padding-top: 6px;
 }
 
 /* Attach file button divider */
