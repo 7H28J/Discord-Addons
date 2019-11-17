@@ -44,6 +44,7 @@
     display: var(--embed-emote);
 }
 
+/* Custom Emote status */
 #app-mount .activity-2Gy-9S .emoji,
 #app-mount .hoverRoll-YK53gQ .emoji
 {
@@ -51,8 +52,8 @@
     width: var(--custom-status-emote);
 }
 
+/* Server Emote list */
 #app-mount .emojiRow-zIc7ZX .emojiImage-1hZi2F {
     height: var(--server-emotes);
     width: var(--server-emotes);
-}
 }
