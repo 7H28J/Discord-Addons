@@ -34,8 +34,13 @@
 /* Chat window Messages */
 #app-mount .containerCozy-jafyvG {
     overflow: visible;
-    padding: 10px 0 25px;
+    padding: 10px 0 10px;
     margin: 10px 5px 10px 10px;
     border-radius: 5px;
-    background: #292B2F!important;
+    background: #292B2F;
+}
+
+/* Chat window message border */
+.dividerEnabled-2TTlcf {
+	border: none;
 }
