@@ -6,6 +6,20 @@
     background-position: center center
 }
 
+#app-mount .containerCozy-jafyvG {
+    overflow: visible;
+    padding: 10px 0;
+    margin: 10px 5px 10px 10px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.5);
+}
+
+/* Text Entry inner */
+#app-mount .inner-zqa7da {
+  background: var(--background-tertiary)!important;
+  border-radius: 0;
+}
+
 :root {
     --background-primary: rgba(0,0,0,0)!important;
     --background-secondary: rgba(0,0,0,0)!important;
