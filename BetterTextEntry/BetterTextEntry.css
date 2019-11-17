@@ -1,9 +1,3 @@
-/*
- *
- *	CHAT FORM
- *
- */
-
 #app-mount .chat-3bRxxu form {
 	display: block !important;
 	position: relative !important;
@@ -45,8 +39,9 @@
 	visibility: hidden;
 }
 
+/* Text Entry inner */
 #app-mount .inner-zqa7da {
-	background: #292B2F !important;
+	background: var(--background-tertiary)!important;
 	border-radius: 0;
 }
 
@@ -75,6 +70,7 @@
 	display: none;
 }
 
+/* Messages padding, spaces out messages & user typing... */
 #app-mount .messages-3amgkR {
 	padding-bottom: 10px;
 }
