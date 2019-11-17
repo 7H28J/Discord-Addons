@@ -1,0 +1,12 @@
+#app-mount .app-19_DXt {
+    background-image: var(--background-image);
+    background-size: var(--background-size);
+    background-repeat: no-repeat;
+}
+
+:root {
+    --background-primary: rgba(0,0,0,0)!important;
+    --background-secondary: rgba(0,0,0,0)!important;
+    --background-tertiary: rgba(0,0,0,0)!important;
+    --deprecated-panel-background: rgba(0,0,0,0)!important;
+}
