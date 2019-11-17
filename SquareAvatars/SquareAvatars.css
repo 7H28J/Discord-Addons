@@ -1,0 +1,64 @@
+/*
+
+    SQUARE AVATARS
+
+    I need to sort these out and do it properly
+
+
+
+#app-mount [mask*="url"],
+#app-mount .mask-3OgeRz,
+#app-mount .partyMembers-2HCFEF,
+#app-mount .partyMember-2q4Jxq,
+#app-mount .maskProfile-1ObLFT,
+#app-mount .mask-3OgeRz {
+  -webkit-mask: none;
+  mask: none;
+  border-radius: none;
+}
+
+#app-mount .wrapper-25eVIn,
+#app-mount .wrapper-1Rf91z .svg-1X37T1,
+#app-mount .tabBadge-3smxHS,
+#app-mount .wrapper-232cHJ,
+#app-mount .avatarDefault-35WC3R,
+#app-mount .avatarSpeaking-1wJCNq,
+#app-mount .avatarUploaderInner-3UNxY3,
+#app-mount .circleIconButton-jET_ig,
+#app-mount .guildsError-b7zR5H,
+#app-mount .image-33JSyf,
+#app-mount .base-PmTxvP,
+#app-mount .wrapper-2F3Zv8,
+#app-mount .image-33JSyf,
+#app-mount .avatarSmall-3ACRaI,
+#app-mount .inner-1W0Bkn,
+#app-mount .partyMembers-2HCFEF,
+#app-mount .partyMemberOverflow-1tfvpb,
+#app-mount .maskProfile-1ObLFT,
+#app-mount .mask-3OgeRz {
+  border-radius: 7.5% !important;
+}
+
+*/
+
+#app-mount .wrapper-3t9DeA[style="width: 40px; height: 40px;"] {
+    height: 60px!important;
+}
+
+#app-mount .avatar-17mtNa {
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+    opacity: 1;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#app-mount .containerCozy-jafyvG {
+    overflow: visible;
+    padding: 10px 0 25px;
+    margin: 10px 5px 10px 10px;
+    border-radius: 5px;
+    background: #292B2F;
+}
