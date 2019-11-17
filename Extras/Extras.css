@@ -24,3 +24,10 @@
 #app-mount .children-Bmpf2Q {
 	display: var(--ChannelSettingsButton)!important;
 }
+
+/* Category Name */
+
+#app-mount .container-2ax-kl {
+	font-size: 14px;
+	text-align: center;
+}
