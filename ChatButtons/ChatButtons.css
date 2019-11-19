@@ -24,12 +24,14 @@
 }
 
 #app-mount .button-14-BFJ, /* Mute, Deafen and Settings buttons */
-#app-mount .icon-22AiRD /* All title bar buttons, mute channel, pinned messages, etc */ {
+#app-mount .icon-22AiRD, /* All title bar buttons, mute channel, pinned messages, etc */
+#app-mount .button-2vd_v_ /* Emotes & Gif, Nitro Button */ {
 	opacity: var(--user-buttons);
 }
 
 #app-mount .button-14-BFJ:hover, /* Mute, Deafen and Settings buttons */
-#app-mount .icon-22AiRD:hover /* All title bar buttons, mute channel, pinned messages, etc */ {
+#app-mount .icon-22AiRD:hover, /* All title bar buttons, mute channel, pinned messages, etc */
+#app-mount .button-2vd_v_:hover /* Emotes & Gif, Nitro Button, maybe others? */  {
 	opacity: var(--user-buttons);
 	animation-name: fade;
   	animation-duration: 2s;
