@@ -34,10 +34,10 @@
 /* Chat window Messages */
 #app-mount .containerCozy-jafyvG {
     overflow: visible;
-    padding: 10px 0 10px;
+    padding: 10px 0;
+    border-radius: 10px;
     margin: 10px 5px 10px 10px;
-    border-radius: 5px;
-    background: #292B2F;
+    background: rgba(0,0,0,0.1)!important;
 }
 
 /* Chat window message border */
