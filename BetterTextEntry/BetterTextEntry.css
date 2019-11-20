@@ -93,14 +93,7 @@
   display: none;
 }
 
-
-/* Tpying emote suggestions 1/3 */
-#app-mount .icon-3ZzoN7 {
-  height: var(--menu-emote-size);
-  width: var(--menu-emote-size);
-}
-
-/* Tpying emote suggestions 2/3 */
+/* Tpying emote suggestions 1/2 */
 #app-mount .autocomplete-1vrmpx {
   height: 250px !important;
   border-top: 1px solid var(--background-modifier-accent);
@@ -110,7 +103,7 @@
   ;
 }
 
-/* Tpying emote suggestions, the scrollbar 3/3 */
+/* Tpying emote suggestions, the scrollbar 2/2 */
 #app-mount .autocomplete-1vrmpx::-webkit-scrollbar {
   display: none;
 }
