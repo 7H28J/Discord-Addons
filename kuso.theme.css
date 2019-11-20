@@ -1,4 +1,4 @@
-//META{"name":"min","description":"My customizable discord theme, check my addons out","author":"min#0001","version":"0.1","website":"https://min-dayo.com"}*//
+//META{"name":"min","description":"My customizable discord theme, check my addons out","author":"min#0001","version":"0.2","website":"https://min-dayo.com"}*//
 
 
 /*
@@ -8,40 +8,53 @@ You can disable an Addon by putting a comment block around it
 You can enable or add any Addon by using @import url('LINK TO CSS GOES HERE')
 */
 
+
 @import url('https://7h28j.github.io/Discord-Addons/BetterJapaneseFonts/BetterJapaneseFonts.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/BetterEmotes/BetterEmotes.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/DefaultCursorEverywhere/DefaultCursorEverywhere.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/ChatButtons/ChatButtons.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/BetterTextEntry/BetterTextEntry.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/NoHashtags/NoHashtags.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/MobileProfiles/MobileProfiles.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/BlurEmail/BlurEmail.css');
-
 @import url('https://7h28j.github.io/Discord-Addons/Extras/Extras.css');
+/*@import url('https://7h28j.github.io/Discord-Addons/Extras/Transparency.css');*/
+/*@import url('https://7h28j.github.io/Discord-Addons/SquareAvatars/SquareAvatars.css');*/
+
 
 /*
+
 Here you can adjust settings for the theme like how big the font sizes are or how big the emotes are
 Though I recommend what I've put below, or lower going any higher will just look awkward and very big
+
 */
 
+
 :root {
+			/* BETTER JAPANESE FONTS */
+
+	--BetterJpFont: 'Kozuka Gothic Pro';
+
+
+
+			/* BETTER EMOTES */
+
     --default-font-size: 1.063rem;
     --emote-size: 2.5rem;
     --react-emote-size: 1.1rem;
     --menu-emote-size: 2rem;
     --server-emotes: 3rem;
-    --custom-status-emote: 1.4rem;
+    --custom-status-emote: 1rem;
     --embed-emote: none; /* block | none */
+
+
+
+			/* TRANSPARENCY */
+
+    --background-image: url("http://i.imgur.com/SvnuN4M.png");
     
     --message-timestamp: none; /* block | none */
-    --chatPfpSize: 48px;
+    --chatPfpSize: 48px; /* UNUSED */
 
     --emotes-button: block; /* block | none */
     --gift-nitro-button: none; /* block | none */
@@ -57,4 +70,6 @@ Though I recommend what I've put below, or lower going any higher will just look
     --AddChannelButton: none; /* block | none */
     --CollapseArrow: none; /* block | none */
     --ChannelSettingsButton: none; /* flex | none */
+
+    --background-overlay: rgba(0,0,0,0.5);
 }
