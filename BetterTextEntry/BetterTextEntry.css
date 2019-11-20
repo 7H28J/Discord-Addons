@@ -1,95 +1,116 @@
 #app-mount .chat-3bRxxu form {
-	display: block !important;
-	position: relative !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	bottom: 0 !important;
-	background: var(--input-color) !important;
+  display: block !important;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  bottom: 0 !important;
+  background: var(--input-color) !important;
 }
 
 #app-mount .channelTextArea-rNsIhG {
-	margin: 0;
-	padding: 0;
-	background: var(--input-color) !important;
-	border: none !important;
-	max-height: 53px!important;
+  margin: 0;
+  padding: 0;
+  background: var(--input-color) !important;
+  border: none !important;
+  max-height: 53px !important;
 }
 
 #app-mount .channelTextArea-os01xC .innerNoAutocomplete-kaUXJZ,
 .channelTextArea-rNsIhG {
-	min-height: 53px !important; /* 68px */
+  min-height: 53px !important;
+  /* 68px */
 }
 
 #app-mount .channelTextArea-rNsIhG .textArea-2Spzkt {
-	margin: 10px 10px !important;
-	padding: 10px 64px 10px 12px !important;
-	max-height: 53px!important;
+  margin: 10px 10px !important;
+  padding: 10px 64px 10px 12px !important;
+  max-height: 53px !important;
 }
 
 #app-mount .channelTextArea-rNsIhG .textArea-2Spzkt.textAreaDisabled-2_o-kZ {
-	padding: 10px 640px 10px 12px !important;
+  padding: 10px 640px 10px 12px !important;
 }
 
 #app-mount .edit-message .textArea-2Spzkt {
-	padding: 8px 72px 8px 8px !important;
+  padding: 8px 72px 8px 8px !important;
 }
 
 #app-mount .edit-message .avatar-large {
-	opacity: 0;
-	visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
 }
 
 /* Text Entry inner */
 #app-mount .inner-zqa7da {
-	background: #292B2F!important;
-	border-radius: 0;
+  background: #292B2F !important;
+  border-radius: 0;
 }
 
 #app-mount .attachButtonPlus-rUdX-B {
-	d: path('M7.5,18A5.5,5.5 0 0,1 2,12.5A5.5,5.5 0 0,1 7.5,7H18A4,4 0 0,1 22,11A4,4 0 0,1 18,15H9.5A2.5,2.5 0 0,1 7,12.5A2.5,2.5 0 0,1 9.5,10H17V11.5H9.5A1,1 0 0,0 8.5,12.5A1,1 0 0,0 9.5,13.5H18A2.5,2.5 0 0,0 20.5,11A2.5,2.5 0 0,0 18,8.5H7.5A4,4 0 0,0 3.5,12.5A4,4 0 0,0 7.5,16.5H17V18H7.5Z') !important;
+  d: path('M7.5,18A5.5,5.5 0 0,1 2,12.5A5.5,5.5 0 0,1 7.5,7H18A4,4 0 0,1 22,11A4,4 0 0,1 18,15H9.5A2.5,2.5 0 0,1 7,12.5A2.5,2.5 0 0,1 9.5,10H17V11.5H9.5A1,1 0 0,0 8.5,12.5A1,1 0 0,0 9.5,13.5H18A2.5,2.5 0 0,0 20.5,11A2.5,2.5 0 0,0 18,8.5H7.5A4,4 0 0,0 3.5,12.5A4,4 0 0,0 7.5,16.5H17V18H7.5Z') !important;
 }
 
 
 /* User is typing background 1/3 */
 #app-mount .base-gE7OpD {
-    background-color: #36393F;
+  background-color: #36393F;
 }
 
 /* User is typing... 2/3 */
 #app-mount .typing-2GQL18 {
-    display: block!important;
-    position: absolute;
-    left: 5px;
-    bottom: 53px;
-    max-height: 25px;
-    width: auto 0;
+  display: block !important;
+  position: absolute;
+  left: 5px;
+  bottom: 53px;
+  max-height: 25px;
+  width: auto 0;
 }
 
 /* removes the ". . ." from user is typing 3/3 */
 #app-mount .typing-2GQL18 .ellipsis-19qdx6 {
-	display: none;
+  display: none;
 }
 
 /* Messages padding, spaces out messages & user typing... */
 #app-mount .messages-3amgkR {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-
-
-
 #app-mount .channelTextArea-rNsIhG .textArea-2Spzkt {
-    margin: 10px 8px !important;
-    padding: 10px 64px 10px 0 !important;;
-    max-height: 30px!important;
+  margin: 10px 8px !important;
+  padding: 10px 64px 10px 0 !important;
+  ;
+  max-height: 30px !important;
 }
 
 /* Gift, Gif Buttons alignment correction */
 #app-mount .buttons-205you {
-    padding-top: 6px;
+  padding-top: 6px;
 }
 
 /* Attach file button divider */
 #app-mount .attachButtonDivider-3Glu60 {
-	display: none;
+  display: none;
+}
+
+
+/* Tpying emote suggestions 1/3 */
+#app-mount .icon-3ZzoN7 {
+  height: var(--menu-emote-size);
+  width: var(--menu-emote-size);
+}
+
+/* Tpying emote suggestions 2/3 */
+#app-mount .autocomplete-1vrmpx {
+  height: 250px !important;
+  border-top: 1px solid var(--background-modifier-accent);
+  border-left: 1px solid var(--background-modifier-accent);
+  overflow: scroll;
+  overflow-x: hidden;
+  ;
+}
+
+/* Tpying emote suggestions, the scrollbar 3/3 */
+#app-mount .autocomplete-1vrmpx::-webkit-scrollbar {
+  display: none;
 }
