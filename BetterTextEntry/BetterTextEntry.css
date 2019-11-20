@@ -100,7 +100,6 @@
   border-left: 1px solid var(--background-modifier-accent);
   overflow: scroll;
   overflow-x: hidden;
-  ;
 }
 
 /* Tpying emote suggestions, the scrollbar 2/2 */
