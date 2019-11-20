@@ -57,3 +57,9 @@
     height: var(--server-emotes);
     width: var(--server-emotes);
 }
+
+/* Tpying emote suggestions */
+#app-mount .icon-3ZzoN7 {
+  height: var(--menu-emote-size);
+  width: var(--menu-emote-size);
+}
