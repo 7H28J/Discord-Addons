@@ -44,3 +44,8 @@
 .dividerEnabled-2TTlcf {
 	border: none;
 }
+
+/* Chat Username */
+#app-mount .username-_4ZSMR {
+    font-weight: 600; /* 500 */
+}
