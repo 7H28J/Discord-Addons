@@ -1,1 +1,76 @@
 /* ワオー！ */
+
+
+
+
+
+
+
+
+
+
+:root {
+    --messages-unread: #00ccff;
+    --channel-selected: white;
+    --channel-hover: white;
+    
+    --link-colour: #00ccff;
+    
+
+}
+
+#app-mount .markup-2BOw-j a {
+    color: var(--link-colour);
+}
+
+#app-mount .name-3_Dsmg:hover {
+    font-size: 18px;
+    font-weight: 550;
+    transition: 0.55s;
+    color: var(--channel-hover);
+    transition-timing-function: ease-out;
+}
+
+#app-mount .modeSelected-1zApJ_ .name-3_Dsmg {
+    font-size: 18px;
+    font-weight: 550;
+    color: var(--channel-selected);
+}
+
+#app-mount .modeUnread-1zpFdA .name-3_Dsmg {
+    font-size: 18px;
+    font-weight: 550;
+    color: var(--channel-selected);
+}
+
+#app-mount .modeUnread-1zpFdA .name-3_Dsmg:hover,
+#app-mount .modeSelected-1zApJ_ .name-3_Dsmg:hover {
+    color: var(--messages-unread);
+}
+
+
+
+
+
+#app-mount .members-1998pB::-webkit-scrollbar {
+  width: 22px!important;
+}
+
+
+
+
+
+
+
+/* Tagged Channels #[Channel] */
+/* Message Link */
+#app-mount .wrapper-3WhCwL,
+#app-mount .markup-2BOw-j a, {
+	color: #00ccff;
+}
+
+/* Tagged Channels #[Channel] hover */
+#app-mount .wrapper-3WhCwL:hover {
+	background-color: rgba(0, 204, 255, 0.8);
+	color: white;
+}
